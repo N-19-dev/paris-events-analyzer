@@ -24,19 +24,19 @@ Vous retrouverez davantage d'informations sur les données ici : [Que Faire à P
 
 ### Architecture du projet
 
-<img src="images/project-archi.png" alt="archi" width="1400" height="160">
+<img src="images/project-archi.png" alt="archi" width="1200" height="160">
 
 
 <details>
     <summary>En savoir plus</summary>
 
 Pourquoi ce choix ?
-- **Open Data Paris - API** : Fournit des endpoints pour de nombreux jeux de données, notamment les événements de la ville de Paris.
-- **request-cache** : C'est la bibliothèque request mais avec un cache intégré, ce qui permet de réduire les appels API inutiles et de rapidement itérer sur les données.
-- **MinIO x Docker** : Self-hosted et scalable, MinIO est un `object storage` au même titre qu'Amazon S3, Google Cloud Storage ou Azure Blob Storage. Il permet de stocker les données de manière sécurisée et scalable. La seule différence est que, qui dit self-hosted dit gestion de la maintenance, des mises à jour et de la sécurité etc..
-- **DBT** : Facilite la transformation des données avec une approche modulaire et testable.
-- **DuckDB** : Base de données légère et rapide, parfaite pour l'analyse de données.
-- **Streamlit** : Permet de créer rapidement des applications web interactives pour visualiser les données.
+- **[Open Data Paris - API](https://opendata.paris.fr/pages/home/)** : Fournit des endpoints pour de nombreux jeux de données, notamment les événements de la ville de Paris.
+- **[request-cache](https://requests-cache.readthedocs.io/en/stable/)** : C'est la bibliothèque request mais avec un cache intégré, ce qui permet de réduire les appels API inutiles et de rapidement itérer sur les données.
+- **[MinIO x Docker](https://min.io/docs/minio/container/index.html)** : Self-hosted et scalable, MinIO est un `object storage` au même titre qu'Amazon S3, Google Cloud Storage ou Azure Blob Storage. Il permet de stocker les données de manière sécurisée et scalable. La seule différence est que, qui dit self-hosted dit gestion de la maintenance, des mises à jour et de la sécurité etc..
+- **[DBT](https://docs.getdbt.com/docs/introduction)** : Facilite la transformation des données avec une approche modulaire et testable.
+- **[DuckDB](https://duckdb.org/why_duckdb)** : Base de données légère et rapide, parfaite pour l'analyse de données.
+- **[Streamlit](https://docs.streamlit.io/)** : Permet de créer rapidement des applications web interactives pour visualiser les données.
 </details>
 
 
