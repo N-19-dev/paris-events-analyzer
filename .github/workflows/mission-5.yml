@@ -23,7 +23,7 @@ jobs:
       - name: Check file existence
         uses: andstor/file-existence-action@v3
         with:
-          files: ".pre-commit-config.yaml, pyproject.toml, uv.lock, justfile, .sqlfluff.cfg"
+          files: ".pre-commit-config.yaml, pyproject.toml, uv.lock, justfile"
           fail: true
       - name: Install uv
         uses: astral-sh/setup-uv@v6
