@@ -12,8 +12,12 @@
 
 </div>
 
-# Mission 2 - pre-commit
+# Mission 5 - pre-commit
+
+## Transformation & Exposition de la donnée
+
+<img src="images/project-archi.png" alt="logo" width="1200" height="160">
 
 ## Pas à pas 🐢
 
-Voir [Notion](https://tough-cyclone-37b.notion.site/Mission-2-pre-commit-20ac1cee419a802badefd1145627abcd)
+Voir [Notion](https://tough-cyclone-37b.notion.site/Mission-5-sqlfluff-20ac1cee419a8088b73ff6ddbb07f2ed)
