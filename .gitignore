@@ -211,3 +211,9 @@ pea_cache/
 
 # data files
 datalake/
+warehouse/*.duckdb
+
+# DBT
+target/
+dbt_packages/
+logs/

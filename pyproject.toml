@@ -3,10 +3,17 @@ name = "paris-events-analyzer"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "dbt-core>=1.10.2",
+    "dbt-duckdb>=1.9.4",
     "dotenv>=0.9.9",
+    "duckdb>=1.3.1",
+    "fsspec[s3]>=2025.5.1",
     "minio>=7.2.15",
+    "pandas>=2.3.0",
+    "pendulum>=3.1.0",
     "requests-cache>=1.2.1",
     "rich>=14.0.0",
+    "streamlit>=1.46.0",
 ]
 
 [dependency-groups]
