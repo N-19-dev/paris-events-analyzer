@@ -12,7 +12,7 @@
 
 </div>
 
-# Mission 5 - pre-commit
+# Mission 5 - sqlfluff
 
 ## Transformation & Exposition de la donnée
 
